@@ -10,7 +10,7 @@ public class Main {
         short dog = 12345;
         long cup = 123456789;
         float literWater = 123.456f;
-        double kilogramGold = 1234.435784;
+        double kilogramGold = 1234.4356789;
         System.out.println("Значение переменной apple с типом int равно " + apple);
         System.out.println("Значение переменной cat с типом byte равно " + cat);
         System.out.println("Значение переменной dog с типом short равно " + dog);
