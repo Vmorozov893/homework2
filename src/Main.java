@@ -69,6 +69,27 @@ public class Main {
 
         System.out.println("Задание 6\n");
 
+        int banana = 5*80;
+        int milk = (200/100)*105;
+        int iceCream = 2*100;
+        int eggs = 4*70;
+        int weightGram = banana + milk + iceCream + eggs;
+        float weightKilogram = (float) weightGram / 1000;
+        System.out.println("Вес такого завтрака " + weightGram + " грамм или " + weightKilogram + " килограмм.\n");
 
+        System.out.println("Задание 7\n");
+
+        int day1 = 7*1000/500;
+        int day2 = 7*1000/250;
+        int day3 = (day1+day2)/2;
+        System.out.println("Если худеть на 500 грамм в день то потребуется " + day1 + " дней.");
+        System.out.println("Если худеть на 250 грамм в день то потребуется " + day2 + " дней.");
+        System.out.println("В среднем для похудения потребуется " + day3 + " дней.\n");
+
+        System.out.println("Задание 8\n");
+
+        float incomeMasha = 67760;
+        float incomeDenis = 83690;
+        float incomeKristina = 76230;
     }
 }
