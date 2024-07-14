@@ -88,8 +88,21 @@ public class Main {
 
         System.out.println("Задание 8\n");
 
-        float incomeMasha = 67760;
-        float incomeDenis = 83690;
-        float incomeKristina = 76230;
+        int incomeMasha1 = 67760;
+        int incomeDenis1 = 83690;
+        int incomeKristina1 = 76230;
+        int incomeMasha2 = (int) (incomeMasha1 * 1.1F);
+        int incomeDenis2 = (int) (incomeDenis1 * 1.1F);
+        int incomeKristina2 = (int) (incomeKristina1 * 1.1F);
+        int yearIncomeMasha1 = incomeMasha1 * 12;
+        int yearIncomeMasha2 = incomeMasha2 * 12;
+        int yearIncomeDenis1 = incomeDenis1 * 12;
+        int yearIncomeDenis2 = incomeDenis2 * 12;
+        int yearIncomeKristina1 = incomeKristina1 * 12;
+        int yearIncomeKristina2 = incomeKristina2 * 12;
+        System.out.println("Маша теперь получает " + incomeMasha2 + " рубля. Годовой доход вырос на " + (yearIncomeMasha2 - yearIncomeMasha1) + " рублей");
+        System.out.println("Денис теперь получает " + incomeDenis2 + " рублей. Годовой доход вырос на " + (yearIncomeDenis2 - yearIncomeDenis1) + " рублей");
+        System.out.println("Кристина теперь получает " + incomeKristina2 + " рубля. Годовой доход вырос на " + (yearIncomeKristina2 - yearIncomeKristina1) + " рублей");
+
     }
 }
