@@ -9,7 +9,7 @@ public class Main {
         int apple = 123456;
         byte cat = 123;
         short dog = 12345;
-        long cup = 123456789L;
+        long cup = 123_456_789_123L;
         float literWater = 123.456F;
         double kilogramGold = 1234.4356789;
         System.out.println("Значение переменной apple с типом int равно " + apple);
